@@ -1,10 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Variedades from "./Variedades.jsx";
+import { Tienda as ApiTienda } from "./components/Tienda.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <Variedades />
+    <ApiTienda />
   </React.StrictMode>
 );

@@ -2,21 +2,22 @@
 
 ## Descripción del proyecto
 Proyecto desarrollado para la asignatura de Programación Web (Universidad
-Libre, Semestre VI). Consiste en una página web construida con **React**
-que utiliza el hook `useEffect` para consumir una **API pública de
-artículos deportivos** (DummyJSON) y mostrar en tarjetas un catálogo de
-productos: nombre, descripción, imagen, precio y calificación.
+Libre, Semestre VI). Es una tienda construida con **React** que utiliza el
+hook `useEffect` para consumir la **API pública fakestoreapi.com** y
+mostrar en tarjetas un catálogo de productos de electrónica: nombre,
+descripción (traducidos al español), imagen y precio.
 
 ## Tecnologías utilizadas
 - React + Vite
 - Bootstrap 5
 - Hook useEffect (fetch de datos)
-- API pública: https://dummyjson.com/products/category/sports-accessories
+- API pública: https://fakestoreapi.com/products/category/electronics
 
 ## Estructura principal
-- `src/Variedades.jsx` → componente principal que consume la API
-- `src/styles.css` → estilos personalizados de las tarjetas
-- `src/main.jsx` → punto de entrada, conecta Variedades con Bootstrap
+- `src/components/Tienda.jsx` → componente principal que consume la API
+  (exportado como `Tienda`, importado como `ApiTienda`)
+- `src/components/Tienda.css` → estilos personalizados de las tarjetas
+- `src/main.jsx` → punto de entrada, conecta Tienda con Bootstrap
 
 ## Cómo ejecutar el proyecto
 \`\`\`bash
