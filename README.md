@@ -3,15 +3,15 @@
 ## Descripción del proyecto
 Proyecto desarrollado para la asignatura de Programación Web (Universidad
 Libre, Semestre VI). Consiste en una página web construida con **React**
-que utiliza el hook `useEffect` para consumir una **API pública de fútbol**
-(TheSportsDB) y mostrar en tarjetas los equipos de La Liga española: nombre,
-descripción, escudo, estadio y año de fundación.
+que utiliza el hook `useEffect` para consumir una **API pública de
+artículos deportivos** (DummyJSON) y mostrar en tarjetas un catálogo de
+productos: nombre, descripción, imagen, precio y calificación.
 
 ## Tecnologías utilizadas
 - React + Vite
 - Bootstrap 5
 - Hook useEffect (fetch de datos)
-- API pública: https://www.thesportsdb.com/api.php
+- API pública: https://dummyjson.com/products/category/sports-accessories
 
 ## Estructura principal
 - `src/Variedades.jsx` → componente principal que consume la API
